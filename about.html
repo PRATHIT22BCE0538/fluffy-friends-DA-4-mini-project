@@ -1,0 +1,564 @@
+	<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Fluffy Friends</title>
+      <link rel="icon" href="assets/images/sm-logo.svg" type="image/gif" sizes="20x20">
+      <!-- CSS -->
+      <link rel="stylesheet" href="assets/css/animate.css">
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+      <link rel="stylesheet" href="assets/css/jquery-ui.css">
+      <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+      <link rel="stylesheet" href="assets/css/nice-select.css">
+      <link rel="stylesheet" href="assets/css/magnific-popup.css">
+      <link rel="stylesheet" href="assets/css/odometer.css">
+      <link rel="stylesheet" href="assets/css/datepicker.min.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/css/master.css">
+   </head>
+   <body class="home-pages-2">
+      <!-- header start -->
+	      <header class="header-area style-3">
+	         <div class="container d-flex justify-content-between align-items-center">
+	            <div class="header-logo">
+	               <a href="index.html"><img alt="image" class="img-fluid" src="assets/images/header2-logo.svg"></a>
+	            </div>
+	            <div class="main-menu">
+	               <div class="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
+	                  <div class="mobile-logo-wrap">
+	                     <a href="index.html"><img alt="image" src="assets/images/header2-logo.svg"></a>
+	                  </div>
+	                  <div class="menu-close-btn">
+	                     <i class="bi bi-x-lg"></i>
+	                  </div>
+	               </div>
+	               <ul class="menu-list">
+	                  <li><a href="index.html">Home</a></li>
+	                  <li class="active"><a href="about.html">About</a></li>
+	                  <li class="menu-item-has-children">
+	                     <a href="#">Services</a><i class="bi bi-plus dropdown-icon"></i>
+	                     <ul class="sub-menu">
+	                        <li><a href="service-details.html?service=PetGrooming">Pet Grooming</a></li>
+	                        <li><a href="service-details.html?service=PetBoarding">Pet Boarding</a></li>
+	                        <li><a href="service-details.html?service=DogWalking">Dog Walking</a></li>
+	                        <li><a href="service-details.html?service=VetaCall">Vet on Call</a></li>
+	                        <li><a href="service-details.html?service=DogTrainingCourse">Dog Training Course</a></li>
+	                     </ul>
+	                  </li>
+	                  <li class="menu-item-has-children">
+	                     <a href="#">Shop</a><i class="bi bi-plus dropdown-icon"></i>
+	                     <ul class="sub-menu">
+	                        <li><a href="shop.html">Shop</a></li>
+	                        <li><a href="shop-details.html">Shop Details</a></li>
+	                        <li><a href="cart.html">Cart</a></li>
+	                        <li><a href="check-out.html">Check Out</a></li>
+	                     </ul>
+	                  </li>
+	                  <li><a href="contact.html">Contact</a></li>
+	               </ul>
+	               <div class="for-mobile-menu d-lg-none d-block">
+	                  <ul class="social-link mb-5">
+	                     <!-- <li>
+	                        <a href="#nogo">
+	                           <svg width="16" height="13" viewBox="0 0 16 13" xmlns="http://www.w3.org/2000/svg">
+	                              <path d="M15.6365 5.46266C15.6365 5.12721 15.3541 4.84336 15.0202 4.84336H13.274L10.5262 1.07601C10.2694 0.688956 9.75576 0.611544 9.39624 0.895386C9.01104 1.15342 8.934 1.6695 9.21648 2.03075L11.2452 4.84336H5.21036L7.2391 2.03075C7.52158 1.6695 7.44454 1.15342 7.05934 0.895386C6.69982 0.611544 6.18621 0.688956 5.92941 1.07601L3.18163 4.84336H1.46105C1.10153 4.84336 0.844727 5.12721 0.844727 5.46266V5.87552C0.844727 6.23677 1.10153 6.49481 1.46105 6.49481H1.66649L2.33418 11.2169C2.41122 11.8362 2.92482 12.2749 3.54115 12.2749H12.9144C13.5308 12.2749 14.0444 11.8362 14.1214 11.2169L14.8148 6.49481H15.0202C15.3541 6.49481 15.6365 6.23677 15.6365 5.87552V5.46266ZM8.85696 10.0041C8.85696 10.3654 8.57447 10.6234 8.24063 10.6234C7.88111 10.6234 7.6243 10.3654 7.6243 10.0041V7.1141C7.6243 6.77865 7.88111 6.49481 8.24063 6.49481C8.57447 6.49481 8.85696 6.77865 8.85696 7.1141V10.0041ZM11.7331 10.0041C11.7331 10.3654 11.4507 10.6234 11.1168 10.6234C10.7573 10.6234 10.5005 10.3654 10.5005 10.0041V7.1141C10.5005 6.77865 10.7573 6.49481 11.1168 6.49481C11.4507 6.49481 11.7331 6.77865 11.7331 7.1141V10.0041ZM5.98077 10.0041C5.98077 10.3654 5.69829 10.6234 5.36445 10.6234C5.00492 10.6234 4.74812 10.3654 4.74812 10.0041V7.1141C4.74812 6.77865 5.00492 6.49481 5.36445 6.49481C5.69829 6.49481 5.98077 6.77865 5.98077 7.1141V10.0041Z" />
+	                           </svg>
+	                        </a>
+	                     </li>
+	                     <li>
+	                        <a href="#nogo">
+	                           <svg width="15" height="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+	                              <g clip-path="url(#clip0_1585_341)">
+	                                 <path d="M6.98716 0.938832C6.28609 1.04711 5.65949 1.38227 5.169 1.90563C4.62972 2.48055 4.3498 3.14571 4.31128 3.94235C4.25735 5.0561 4.80177 6.12086 5.74167 6.73703C6.20391 7.04125 6.64818 7.19594 7.18747 7.23977C8.18643 7.31711 9.03901 7.00258 9.72724 6.29875C10.2742 5.74188 10.5516 5.13344 10.6183 4.35743C10.7108 3.32102 10.3205 2.3568 9.54234 1.68133C9.03901 1.24821 8.57676 1.03164 7.93733 0.938832C7.62916 0.895004 7.26964 0.892426 6.98716 0.938832Z" />
+	                                 <path d="M4.65531 7.29655C3.49456 7.4203 2.68821 8.25561 2.31327 9.7303C2.06418 10.7126 1.99998 11.8933 2.15919 12.5405C2.29016 13.0587 2.71902 13.5846 3.21465 13.8373C3.43807 13.9507 3.75907 14.0435 4.02871 14.0744C4.18793 14.0951 5.40004 14.1002 7.71896 14.0951L11.1729 14.0873L11.3912 14.0255C12.2027 13.8037 12.7574 13.2572 12.9603 12.4889C13.0656 12.0893 13.0527 11.1354 12.9295 10.3826C12.6598 8.70678 11.9767 7.70131 10.8956 7.38678C10.6491 7.31459 10.2074 7.26045 10.0764 7.28623C9.95057 7.30944 9.77594 7.40225 9.38047 7.65749C8.95931 7.93077 8.90025 7.9617 8.58438 8.0803C8.21972 8.21694 7.91926 8.27624 7.56745 8.27624C7.20792 8.27624 6.93058 8.22467 6.56592 8.09577C6.2218 7.97202 6.20639 7.96428 5.66711 7.62139C5.38463 7.44092 5.17405 7.32491 5.09187 7.3017C4.94806 7.26561 4.94806 7.26561 4.65531 7.29655Z" />
+	                              </g>
+	                           </svg>
+	                        </a>
+	                     </li> -->
+	                  </ul>
+	               </div>
+	            </div>
+	            <div class="nav-right d-flex jsutify-content-end align-items-center">
+	               <ul>
+	                  <li>
+	                     <a href="cart.html">
+	                        <svg width="16" height="13" viewBox="0 0 16 13" xmlns="http://www.w3.org/2000/svg">
+	                           <path d="M15.6365 5.46266C15.6365 5.12721 15.3541 4.84336 15.0202 4.84336H13.274L10.5262 1.07601C10.2694 0.688956 9.75576 0.611544 9.39624 0.895386C9.01104 1.15342 8.934 1.6695 9.21648 2.03075L11.2452 4.84336H5.21036L7.2391 2.03075C7.52158 1.6695 7.44454 1.15342 7.05934 0.895386C6.69982 0.611544 6.18621 0.688956 5.92941 1.07601L3.18163 4.84336H1.46105C1.10153 4.84336 0.844727 5.12721 0.844727 5.46266V5.87552C0.844727 6.23677 1.10153 6.49481 1.46105 6.49481H1.66649L2.33418 11.2169C2.41122 11.8362 2.92482 12.2749 3.54115 12.2749H12.9144C13.5308 12.2749 14.0444 11.8362 14.1214 11.2169L14.8148 6.49481H15.0202C15.3541 6.49481 15.6365 6.23677 15.6365 5.87552V5.46266ZM8.85696 10.0041C8.85696 10.3654 8.57447 10.6234 8.24063 10.6234C7.88111 10.6234 7.6243 10.3654 7.6243 10.0041V7.1141C7.6243 6.77865 7.88111 6.49481 8.24063 6.49481C8.57447 6.49481 8.85696 6.77865 8.85696 7.1141V10.0041ZM11.7331 10.0041C11.7331 10.3654 11.4507 10.6234 11.1168 10.6234C10.7573 10.6234 10.5005 10.3654 10.5005 10.0041V7.1141C10.5005 6.77865 10.7573 6.49481 11.1168 6.49481C11.4507 6.49481 11.7331 6.77865 11.7331 7.1141V10.0041ZM5.98077 10.0041C5.98077 10.3654 5.69829 10.6234 5.36445 10.6234C5.00492 10.6234 4.74812 10.3654 4.74812 10.0041V7.1141C4.74812 6.77865 5.00492 6.49481 5.36445 6.49481C5.69829 6.49481 5.98077 6.77865 5.98077 7.1141V10.0041Z" />
+	                        </svg>
+	                     </a>
+	                  </li>
+	                  <li>
+	                     <a href="login.html">
+	                        <svg width="15" height="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+	                           <g clip-path="url(#clip0_1585_341)">
+	                              <path d="M6.98716 0.938832C6.28609 1.04711 5.65949 1.38227 5.169 1.90563C4.62972 2.48055 4.3498 3.14571 4.31128 3.94235C4.25735 5.0561 4.80177 6.12086 5.74167 6.73703C6.20391 7.04125 6.64818 7.19594 7.18747 7.23977C8.18643 7.31711 9.03901 7.00258 9.72724 6.29875C10.2742 5.74188 10.5516 5.13344 10.6183 4.35743C10.7108 3.32102 10.3205 2.3568 9.54234 1.68133C9.03901 1.24821 8.57676 1.03164 7.93733 0.938832C7.62916 0.895004 7.26964 0.892426 6.98716 0.938832Z" />
+	                              <path d="M4.65531 7.29655C3.49456 7.4203 2.68821 8.25561 2.31327 9.7303C2.06418 10.7126 1.99998 11.8933 2.15919 12.5405C2.29016 13.0587 2.71902 13.5846 3.21465 13.8373C3.43807 13.9507 3.75907 14.0435 4.02871 14.0744C4.18793 14.0951 5.40004 14.1002 7.71896 14.0951L11.1729 14.0873L11.3912 14.0255C12.2027 13.8037 12.7574 13.2572 12.9603 12.4889C13.0656 12.0893 13.0527 11.1354 12.9295 10.3826C12.6598 8.70678 11.9767 7.70131 10.8956 7.38678C10.6491 7.31459 10.2074 7.26045 10.0764 7.28623C9.95057 7.30944 9.77594 7.40225 9.38047 7.65749C8.95931 7.93077 8.90025 7.9617 8.58438 8.0803C8.21972 8.21694 7.91926 8.27624 7.56745 8.27624C7.20792 8.27624 6.93058 8.22467 6.56592 8.09577C6.2218 7.97202 6.20639 7.96428 5.66711 7.62139C5.38463 7.44092 5.17405 7.32491 5.09187 7.3017C4.94806 7.26561 4.94806 7.26561 4.65531 7.29655Z" />
+	                           </g>
+	                        </svg>
+	                     </a>
+	                  </li>
+	               </ul>
+	               <div class="sidebar-button mobile-menu-btn ">
+	                  <i class="bi bi-list"></i>
+	               </div>
+	            </div>
+	         </div>
+	      </header>
+      <!-- header end -->
+      <div class="inner-page-banner">
+         <div class="breadcrumb-vec-btm">
+            <img class="img-fluid" src="assets/images/bg/inner-banner-btm-vec.png" alt>
+         </div>
+         <div class="container">
+            <div class="row justify-content-center align-items-center text-center">
+               <div class="col-lg-6 align-items-center">
+                  <div class="banner-content">
+                     <h1>About Me</h1>
+                     <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                           <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                           <li class="breadcrumb-item active" aria-current="page">About Me</li>
+                        </ol>
+                     </nav>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="banner-img d-lg-block d-none">
+                     <div class="banner-img-bg">
+                        <img class="img-fluid" src="assets/images/bg/inner-banner-vec.png" alt>
+                     </div>
+                     <img class="img-fluid" src="assets/images/bg/inner-banner-img.png" alt>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="h1-story-area two mb-120 pt-120">
+         <div class="container">
+            <div class="row g-lg-4 gy-5">
+               <div class="col-lg-6">
+                  <div class="section-title1">
+                     <span><img src="assets/images/icon/section-vec-l1.svg" alt>Our Story<img src="assets/images/icon/section-vec-r1.svg" alt></span>
+                     <h2>Welcome to Fluffy - Where Every Pet is Family!</h2>
+                  </div>
+                  <div class="story-content">
+                     <p>At Fluffy, our journey began with a simple love for animals. It all started when our founder, Sarah, adopted her first pet, a playful French Bulldog named Max. From that moment on, Sarah's passion for pets ignited, leading her to embark on a mission to provide the best care and products for furry companions everywhere.</p>
+                     <div class="story-title-reviews">
+                        <h3>We Think Working Process may <span>increase</span> mindset.</h3>
+                     </div>
+                     <p>Our commitment to quality and care extends to everything we do. Whether it's sourcing the finest pet supplies, offering expert grooming services, or providing helpful advice for pet owners, Fluffy is dedicated to ensuring that every pet receives the love and attention they deserve.</p>
+                  </div>
+               </div>
+               <div class="col-lg-6 d-flex justify-content-lg-end justify-content-center">
+                  <div class="story-img">
+                     <img class="img-fluid" src="assets/images/bg/story-img1.png" alt>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="h2-services-area mb-120">
+         <div class="services-btm ">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-5">
+                     <div class="services-img">
+                        <div class="services-img-bg">
+                           <img src="assets/images/icon/h2-services-img-bg.svg" alt>
+                        </div>
+                        <img class="img-fluid" src="assets/images/bg/h2-services-img.png" alt>
+                     </div>
+                  </div>
+                  <div class="col-lg-7">
+                     <div class="services-content">
+                        <img src="assets/images/icon/section-sl-no.svg" alt>
+                        <h2>we are providing pet care service for years.Your Trusted Partner in Pet Care!</h2>
+                        <p>For years, Fluffy has been dedicated to providing top-quality pet care services to our beloved furry friends and their adoring owners. With a team of passionate pet lovers and experts, we strive to ensure that every pet receives the love, attention, and care they deserve.
+                           From grooming sessions that leave your pet looking and feeling their best to personalized care plans tailored to meet each pet's unique needs, Fluffy is committed to making a positive difference in the lives of pets and their families.                           
+                        </p>
+                        <div class="author-area">
+                           <div class="author-quat">
+                              <p><sup><img src="assets/images/icon/author-quat-icon.svg" alt></sup> At Fluffy Friends, we believe that pets are more than just animals; they're cherished members of our families. That's why we're dedicated to providing the best care, products, and services to ensure that every pet lives a happy, healthy life With love and gratitude</p>
+                           </div>
+                           <div class="author-name-deg">
+                              <h4>[Om,Anuj,Prathit] </h4>
+                              <span>Founder, Fluffy</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="h1-testimonial-area mb-120">
+         <div class="container-fluid">
+            <div class="row mb-50">
+               <div class="col-lg-12 d-flex justify-content-center">
+                  <div class="section-title1 text-center">
+                     <span><img src="assets/images/icon/section-vec-l2.svg" alt>Testimonial<img src="assets/images/icon/section-vec-r2.svg" alt></span>
+                     <h2 class="text-white">valueable words from Customers</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row justify-content-end">
+               <div class="col-xxl-10 col-md-11  p-sm-0">
+                  <div class="swiper h1-testimonial-slider">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <div class="testimonial-card">
+                              <div class="testimonial-img">
+                                 <img class="img-fluid" src="assets/images/bg/h1-testi1.png" alt>
+                              </div>
+                              <div class="testimonial-content">
+                                 <ul class="review">
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                 </ul>
+                                 <p>Fluffy Friends is simply the best! Their grooming services leave my dog looking and feeling like a million bucks every time. I wouldn't trust anyone else with my furry friend.</p>
+                                 <div class="author-area">
+                                    <h4>Khushi Mahatma</h4>
+                                    <span>Customer</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="testimonial-card">
+                              <div class="testimonial-img">
+                                 <img class="img-fluid" src="assets/images/bg/h1-testi2.png" alt>
+                              </div>
+                              <div class="testimonial-content">
+                                 <ul class="review">
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                 </ul>
+                                 <p>I can't thank Fluffy Friends enough for the personalized care they provided to my aging cat. Their team went above and beyond to ensure she was comfortable and happy.</p>
+                                 <div class="author-area">
+                                    <h4>Deven Patel</h4>
+                                    <span>Customer</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="testimonial-card">
+                              <div class="testimonial-img">
+                                 <img class="img-fluid" src="assets/images/bg/h1-testi3.png" alt>
+                              </div>
+                              <div class="testimonial-content">
+                                 <ul class="review">
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                 </ul>
+                                 <p>As a busy pet owner, Fluffy Friends' daycare services have been a lifesaver. It's such a relief knowing that my dog is in good hands while I'm at work. Thank you for everything!</p>
+                                 <div class="author-area">
+                                    <h4>Abhishek Kumar</h4>
+                                    <span>Customer</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="testimonial-card">
+                              <div class="testimonial-img">
+                                 <img class="img-fluid" src="assets/images/bg/h1-testi4.png" alt>
+                              </div>
+                              <div class="testimonial-content">
+                                 <ul class="review">
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                 </ul>
+                                 <p>Fluffy Friends is my go-to for all things pet-related. From their wide selection of high-quality products to their knowledgeable staff, they never disappoint. Highly recommend!</p>
+                                 <div class="author-area">
+                                    <h4>Pal Patel</h4>
+                                    <span>Customer</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-11">
+                  <div class="swiper-btn-wrap d-flex align-items-center justify-content-center">
+                     <div class="slider-btn prev-btn-1">
+                        <i class="bi bi-arrow-left"></i>
+                     </div>
+                     <div class="slider-btn next-btn-1">
+                        <i class="bi bi-arrow-right"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="h1-choose-area mb-120">
+         <div class="container ">
+            <div class="row g-lg-4 gy-5 justify-content-center">
+               <div class="col-lg-5">
+                  <div class="section-title1">
+                     <span><img src="assets/images/icon/section-vec-l1.svg" alt>Why Choose Us<img src="assets/images/icon/section-vec-r1.svg" alt></span>
+                     <h2>we provide the best care services.</h2>
+                  </div>
+                  <div class="choose-content">
+                     <p>At Fluffy Friends, we understand that your pet is more than just an animal – they're a cherished member of your family. That's why we're committed to providing the best care services tailored to your pet's unique needs.</p>
+                     <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                           <h2 class="accordion-header" id="headingOne">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              01. What kind of care services do you offer?
+                              </button>
+                           </h2>
+                           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 We offer a comprehensive suite of pet care services, including veterinary care, daycare, grooming, and boarding. 
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <h2 class="accordion-header" id="headingTwo">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              02. Can I bundle services for a discounted rate?                              
+                              </button>
+                           </h2>
+                           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 Absolutely! We offer package deals that combine different services at a reduced price. This allows you to create a customized care plan that fits your pet's needs and your budget.
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <h2 class="accordion-header" id="headingThree">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              03. Do you offer services for exotic pets or only common ones (dogs, cats)?
+                              </button>
+                           </h2>
+                           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 While we specialize in caring for common pets like dogs and cats,  we recommend contacting us to inquire about the specific needs of your exotic pet.  We may be able to accommodate them or recommend a service provider who can.
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-5 col-md-8">
+                  <div class="choose-img">
+                     <div class="batch">
+                        <img src="assets/images/icon/choose-star.svg" alt>
+                        <span>100% Safe<br>
+                        Your Pet</span>
+                     </div>
+                     <div class="choose-vector">
+                        <img src="assets/images/icon/choose-vector.svg" alt>
+                     </div>
+                     <img class="img-fluid" src="assets/images/bg/choose-img.png" alt="choose-img">
+                  </div>
+               </div>
+               <div class="col-lg-2">
+                  <div class="choose-feature">
+                     <ul>
+                        <li>
+                           <div class="single-choose-card">
+                              <div class="icon">
+                                 <img src="assets/images/icon/care.svg" alt>
+                              </div>
+                              <div class="content">
+                                 <h4>Personalized care</h4>
+                                 <p>At Fluffy Friends, we believe that every pet is unique and deserves individualized care.</p>
+                              </div>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="single-choose-card">
+                              <div class="icon">
+                                 <img src="assets/images/icon/team.svg" alt>
+                              </div>
+                              <div class="content">
+                                 <h4>Trusted Team</h4>
+                                 <p>Our team at Fluffy Friends is comprised of passionate animal lovers who are dedicated to providing the highest standard of care for your pet.</p>
+                              </div>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="single-choose-card">
+                              <div class="icon">
+                                 <img src="assets/images/icon/mind.svg" alt>
+                              </div>
+                              <div class="content">
+                                 <h4>Peace of mind</h4>
+                                 <p>We understand that leaving your pet in someone else's care can be stressful. That's why we strive to provide you with peace of mind by offering a safe, comfortable environment for your pet to thrive in while you're away.</p>
+                              </div>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="team-area two mb-120 position-relative">
+         <div class="swiper-btn-wrap d-flex align-items-center justify-content-between">
+            <div class="slider-btn prev-btn-2">
+               <i class="bi bi-arrow-left"></i>
+            </div>
+            <div class="slider-btn next-btn-2">
+               <i class="bi bi-arrow-right"></i>
+            </div>
+         </div>
+         <div class="container">
+            <div class="row mb-50">
+               <div class="col-lg-12 d-flex justify-content-center">
+                  <div class="section-title1 text-center">
+                     <span><img src="assets/images/icon/section-vec-l1.svg" alt>Our Team<img src="assets/images/icon/section-vec-r1.svg" alt></span>
+                     <h2>See Our Fluffy Members</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="swiper team-slider-1">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <div class="single-team-card">
+                           <div class="member-img">
+                              <img class="img-fluid" src="assets/images/bg/team/daxesh.png" alt>
+                           </div>
+                           <div class="member-content">
+                              <span>Kapadia Om Daxesh</span>
+                              <h3>22BCE2051</h3>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="single-team-card">
+                           <div class="member-img">
+                              <img class="img-fluid" src="assets/images/bg/team/pathik.png" alt>
+                           </div>
+                           <div class="member-content">
+                              <span>Prathit Mehul Panchal</span>
+                              <h3>22BCE0538</h3>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="single-team-card">
+                           <div class="member-img">
+                              <img class="img-fluid" src="assets/images/bg/team/anuj.png" alt>
+                           </div>
+                           <div class="member-content">
+                              <span>Patel Anujkumar Amitbhai</span>
+                              <h3>22BCE2157</h3>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer start -->	      
+	   <footer>
+		   <div class="container">
+		      <div class="row pt-90 pb-90 justify-content-center">
+		         <div class="col-lg-3 col-sm-6 order-lg-1 order-2 d-flex justify-content-sm-start justify-content-start">
+		            <div class="footer-items contact ">
+		               <h3>Contacts</h3>
+		               <div class="hotline mb-30">
+		                  <div class="hotline-icon">
+		                     <img src="assets/images/icon/phone-icon.svg" alt="">
+		                  </div>
+		                  <div class="hotline-info">
+		                     <h6><a>+91 8511655441</a></h6>
+		                     <h6><a>+91 9512629004</a></h6>
+							 <h6><a>+91 7485932290</a></h6>
+		                  </div>
+		               </div>
+		               <div class="email mb-30">
+		                  <div class="email-icon">
+		                     <img src="assets/images/icon/envelope.svg" alt="">
+		                  </div>
+		                  <div class="email-info">
+		                     <h6><a href=""><span class="__cf_email__">kapadiaom22@gmail.com</span></a></h6>
+		                     <h6><a href=""><span class="__cf_email__">patelanuj1976@gmail.com</span></a></h6>
+							 <h6><a href=""><span class="__cf_email__">prathit2004@gmail.com</span></a></h6>
+		                  </div>
+		               </div>
+		               <div class="email">
+		                  <div class="email-icon">
+		                     <img src="assets/images/icon/location.svg" alt="">
+		                  </div>
+		                  <div class="email-info">
+		                     <h6 class="mb-10"><a>VIT Vellore, Katpadi, Vellore</a></h6>
+		                     <h6><a>Tamilnadu, India</a></h6>
+		                  </div>
+		               </div>
+		            </div>
+		         </div>
+		         <div class="col-lg-6 d-flex align-items-center order-lg-2 order-1 justify-content-sm-center justify-content-start">
+		            <div class="footer-items">
+		               <h2>want <span>to keep</span><br>
+		                  your pet in, <span>our center</span>?
+		               </h2>
+		               <div class="book-btn">
+		                  <a class="primary-btn1" href="contact.html">Book Now</a>
+		               </div>
+		            </div>
+		         </div>
+		         <div class="col-lg-3 col-sm-6 d-flex justify-content-sm-end justify-content-start order-3">
+		            <div class="footer-items opening-time">
+		               <h3>Opening Hours</h3>
+		               <h6 class="mb-25">Mon - Fri: 9.00AM - 8.00PM</h6>
+		               <h6 class="mb-25">Saturday: 9.00AM - 7.00PM</h6>
+		               <h6>Sunday: 9.00AM - 4.00PM</h6>
+		               <ul class="social-icons">
+		                  <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
+		                  <li><a href="https://twitter.com/"><i class="bx bxl-twitter"></i></a></li>
+		                  <li><a href="https://www.pinterest.com/"><i class="bx bxl-pinterest-alt"></i></a></li>
+		                  <li><a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a></li>
+		               </ul>
+		            </div>
+		         </div>
+		      </div>
+		      <div class="row border-top">
+		         <div class="col-lg-12 d-flex align-items-center justify-content-center">
+		            <div class="copyright-area">
+		               <p>&copy; 2024 Fluffy Friends</p>
+		            </div>
+		         </div>
+		      </div>
+		   </div>
+		</footer>
+	  <!-- footer end -->
+
+      <!-- JS -->
+      <script src="assets/js/jquery-3.6.0.min.js"></script>
+      <script src="assets/js/jquery.timepicker.min.js"></script>
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/swiper-bundle.min.js"></script>
+      <script src="assets/js/jquery.nice-select.js"></script>
+      <script src="assets/js/jquery.fancybox.min.js"></script>
+      <script src="assets/js/odometer.min.js"></script>
+      <script src="assets/js/jquery.marquee.min.js"></script>
+      <script src="assets/js/isotope.pkgd.min.js"></script>
+      <script src="assets/js/SmoothScroll.js"></script>
+      <script src="assets/js/jquery.magnific-popup.min.js"></script>
+      <script src="assets/js/main.js"></script>
+
+</body>
+</html>
